@@ -10,16 +10,14 @@
         <link rel="stylesheet" href="sass/style.scss"> 
     </head>
     <body>
-       <div class="slash">
-          <div id="main-slider">
-              <img class="w-100" src="images/img-slash.jpg" alt="slash">
+         <div class="card text-center">
               <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
                 <a class="navbar-brand" href="#">Blue sky</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse ml-auto" id="mobile-menu">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <ul class="navbar-nav justify-content-end mr-auto mt-2 mt-lg-0">
                         <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
@@ -27,11 +25,13 @@
                         <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                     </ul>
                 </div>
-            </nav>
-              <div class="desription">
-                  <h4 class="text-success py-md-3">Welcome to Our Studio!</h4>
-                  <h2 class="text-success py-md-3">IT'S NICE TO MEET YOU</h2>
-                  <a href="#" class="btn btn-one">Read more</a>
+             </nav>
+          <div id="card">
+              <img class="w-100" src="images/img-slash.jpg" alt="slash">
+              <div class="card-img-overlay">
+                  <h4 class="card-text text-dark py-md-3">Welcome to Our Studio!</h4>
+                  <h2 class="card-text text-dark py-md-3">IT'S NICE TO MEET YOU</h2>
+                  <a href="#" class="btn btn-dark">Read more</a>
               </div>
           </div> 
        </div>
@@ -41,7 +41,7 @@
                <p>Fusce et tempor tellus, viverra ornare nibh.</p>
                 <div class="row">    
                     <div class="col-lg-4">              
-                        <div class="card">
+                        <div class="card card-services">
                             <div class="card-body">
                                 <i class="fas fa-home"></i>
                                 <h5 class="card-title">E-Commerce</h5>
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">              
-                        <div class="card">
+                        <div class="card card-services">
                             <div class="card-body">
                                 <i class="fas fa-home"></i>
                                 <h5 class="card-title">Responsive Web</h5>
@@ -59,7 +59,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">              
-                        <div class="card">
+                        <div class="card card-services">
                             <div class="card-body">
                                 <i class="fas fa-home"></i>
                                 <h5 class="card-title">Web security</h5>
