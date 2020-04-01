@@ -138,12 +138,13 @@ section {
         justify-content: space-between;
         margin: 20px 0;
         .port-box {
+            position: relative;
             display: flex;
             flex-direction: column;
             .box-image {
+                position: absolute;
                 img {
                     width: 100%,
-                    object-fit: cover;
                 }
             }
         }  
