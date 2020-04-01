@@ -8,7 +8,6 @@ body {
     line-height: 1.7;
     font-family: 'Roboto', sans-serif;
     color: black;
-    background: black;
 }
 .container {
     max-width: 1140px;
@@ -133,7 +132,48 @@ section {
 /*Portfolio*/
 .portfolio {
     background-color:  #E9EDEE;
-    .portfolio {
-        
+    .portfolio-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px 0;
+        .port-box {
+            display: flex;
+            flex-direction: column;
+            .box-image {
+                img {
+                    width: 100%,
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }  
+    }
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 10px;
+    .footer-left {
+        flex: 1;
+    }
+    .footer-list {
+        flex: 3;
+        ul {
+            text-align: center;
+            list-style-position: inside;
+            li {
+                font-size: 0;
+                display: inline;
+                i {
+                    font-size: 30px;
+                    padding: 0 20px;
+                }
+                i:hover {
+                   transform: scale(2); 
+                }
+            }
+        }
     }
 }
